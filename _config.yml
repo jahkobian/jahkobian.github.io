@@ -25,6 +25,12 @@ logo: "/assets/logo.png"
 # Build settings
 markdown: kramdown
 
+plugins:
+  - jekyll-sitemap
+
+whitelist:
+  - jekyll-sitemap
+
 # Google analytics
 ga_tracking_id: "UA-171735375-1"
 
