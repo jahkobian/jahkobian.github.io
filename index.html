@@ -45,8 +45,18 @@ permalink: /
   <div class="row">
     <div class="col-md-6 col-md-offset-6">
       <h2>What's New?</h2>
-      <p>Recently watching, reading, working on or thinking about.</p>
-      <a href="{{ site.baseurl }}/blog" class="btn btn-view-works">Read More</a>
+      {% for post in site.posts limit:1 %}
+        <div>
+          <h4>{{ post.title }}</h4>
+          <p class="post-date">
+            {{ post.date | date_to_long_string }}
+          </p>
+          <p>
+            {{ post.content | strip_html | truncatewords: 25 }}
+          </p>
+        </div>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-view-works">Read More</a>
+      {% endfor %}
     </div>
   </div>
 </div>
