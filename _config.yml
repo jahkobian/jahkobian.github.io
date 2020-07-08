@@ -15,8 +15,8 @@ keep_files:
 
 # Site settings
 title: InTuition
-subtitle: "Private, personalized tutoring."
-url: "http://jahkobian.github.io" # the base hostname & protocol for your site
+subtitle: "Private, personalized tutoring in STEM."
+url: "https://jahkobian.github.io" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
 cover: "/assets/cover.png"
