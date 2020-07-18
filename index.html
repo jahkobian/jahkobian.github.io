@@ -64,11 +64,23 @@ permalink: /
 <section id="feature">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 col-md-offset-6">
+      <div class="col-md-6">
+        {% for post in site.posts limit:1 %}
+        {% if post.video.size > 0 %}
+        <div class="video_container">
+          <iframe  src="{{ site.baseurl}}{{post.video}}" frameborder="0" allowfullscreen="true"></iframe>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+      <div class="col-md-6">
         <h2>What's New?</h2>
         {% for post in site.posts limit:1 %}
           <div>
-            <h4>{{ post.title }}</h4>
+            <h3>{{ post.title }}</h3>
+            {% if post.subtitle.size > 0 %}
+              <h4>{{ post.subtitle }}</h4>
+            {% endif %}
             <p class="post-date">
               {{ post.date | date_to_long_string }}
             </p>
