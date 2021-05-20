@@ -10,7 +10,7 @@ video: /img/levitator.mp4
 ---
 {::options parse_block_html="true" /}
 
-**Note:** You may want to read [Part 1]({% post_url /_posts/2020-06-24-levitation-in-the-classroom %}) first to get some context.
+**Note:** You may want to read [Part 1]({% post_url 2020-06-24-levitation-in-the-classroom %}) first to get some context.
 
 Check out the acoustic levitator in action! I was only levitating a small piece of styrofoam in this case, but it's a promising start!
 

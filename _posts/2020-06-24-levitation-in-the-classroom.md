@@ -7,7 +7,7 @@ author: Jacob Breman
 meta: "acoustic levitator"
 categories: physicalscience acousticlevitator
 ---
-**Update:** Check out [Part 2]({% post_url /_posts/2020-07-18-levitation-in-the-classroom %})!
+**Update:** Check out [Part 2]({% post_url 2020-07-18-levitation-in-the-classroom %})!
 
 Waves show up in nature all over the place, but the most interesting ones are invisible.  One of the many challenges I face in teaching 7th grade science is creating up-close and personal connections for students as they try to wrap their minds around the models we convince them to believe in even though they can't directly hold and look at the phenomena the models address. Sound waves have been one of those difficult areas.  You can show the compression wave in a slinky, draw air molecules with regions of compression and rarefaction, and watch cool youtube videos, but I may have found something better: [an acoustic levitator](https://aip.scitation.org/doi/full/10.1063/1.4989995 "the original scientific publication")
 
@@ -25,4 +25,4 @@ I have not been able to try out my levitator with students yet, but hope to this
 
 I need to remember to follow this post up with some pictures of my acoustic levitator in action when I get a chance to get back into my classroom . . . stay tuned!
 
-**Update:** Check out [Part 2]({% post_url /_posts/2020-07-18-levitation-in-the-classroom %})!
+**Update:** Check out [Part 2]({% post_url 2020-07-18-levitation-in-the-classroom %})!
