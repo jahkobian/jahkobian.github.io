@@ -1,9 +1,9 @@
 - counter: 11
   icon: ion-university
-  text: Years of Teaching Experience
+  text: Years
 - counter: 101
   icon: ion-clock
-  text: Tutoring Sessions Completed
+  text: Sessions
 - counter: 13
   icon: ion-happy-outline
-  text: Satisfied Customers
+  text: A counted number of things . . .

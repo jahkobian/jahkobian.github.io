@@ -14,7 +14,7 @@ keep_files:
 
 
 # Site settings
-title: InTuition
+title: Jahkkobian
 subtitle: "Private, personalized tutoring in STEM."
 url: "https://jahkobian.github.io" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
@@ -34,7 +34,7 @@ whitelist:
   - jekyll-sitemap
 
 # Google analytics
-ga_tracking_id: "UA-171735375-1"
+ga_tracking_id: ""
 
 # Category descriptions (for archive pages)
 descriptions:
